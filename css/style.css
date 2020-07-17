@@ -188,3 +188,19 @@ html, body {
     text-align: justify;
     padding: 10px 25px;
 }
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    min-width: 1280px;
+    border-top: 2px solid #888;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+}
+
+.footer p {
+    margin-top: 8px;
+}
