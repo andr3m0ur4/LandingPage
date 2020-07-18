@@ -15,14 +15,14 @@ html, body {
 }
 
 .center {
-    width: 1280px;
+    width: 100%;
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 0 2%;
 }
 
 .header {
     width: 100%;
-    min-width: 1280px;
+    padding: 0 2%;
     height: 60px;
     background-color: #448fa3;
 }
@@ -34,7 +34,7 @@ html, body {
 
 .container-banner {
     width: 100%;
-    min-width: 1280px;
+    padding: 0 2%;
     height: 557px;
     background-image: url('../images/header_bg.png');
     background-size: cover;
@@ -125,8 +125,7 @@ html, body {
 }
 
 .container-content {
-    min-width: 1280px;
-    padding: 40px 0;
+    padding: 40px 2%;
     background-color: #ddd;
     text-align: center;
 }
@@ -136,7 +135,7 @@ html, body {
 }
 
 .container-content p {
-    width: 698px;
+    width: 100%;
     margin: 15px 0;
     display: inline-block;
     text-align: justify;
@@ -154,8 +153,7 @@ html, body {
 }
 
 .section-1 {
-    min-width: 1280px;
-    padding: 90px 0;
+    padding: 90px 2%;
 }
 
 .section-1 h2 {
@@ -194,9 +192,8 @@ html, body {
 }
 
 .footer {
-    min-width: 1280px;
     border-top: 2px solid #888;
-    padding: 20px 0;
+    padding: 20px 2%;
     text-align: center;
     color: #888;
 }
