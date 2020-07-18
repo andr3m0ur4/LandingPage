@@ -46,7 +46,7 @@ html, body {
 }
 
 .form {
-    padding: 10px;
+    padding: 20px;
     width: 400px;
     height: calc(100% + 30px);
     float: right;
@@ -83,7 +83,12 @@ html, body {
     margin-top: 8px;
     width: 344px;
     height: 55px;
+    padding: 8px 10px;
     border: 1px solid #ccc;
+}
+
+.input-container input[type=text]:focus, .input-container input[type=email]:focus {
+    outline: 0;
 }
 
 .form .input-container-submit {
@@ -255,7 +260,7 @@ html, body {
         float: none;
         display: inline-block;
         width: 90%;
-        max-width: 400px;
+        max-width: 420px;
     }
 
     .form {
