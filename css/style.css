@@ -79,7 +79,7 @@ html, body {
     margin: 20px 0;
 }
 
-.input-container input[type=text], .input-container input[type=email] {
+.input-container input[type=text], .input-container input[type=email], .input-container input[type=tel] {
     margin-top: 8px;
     width: 344px;
     height: 55px;
@@ -87,7 +87,9 @@ html, body {
     border: 1px solid #ccc;
 }
 
-.input-container input[type=text]:focus, .input-container input[type=email]:focus {
+.input-container input[type=text]:focus,
+.input-container input[type=email]:focus,
+.input-container input[type=tel]:focus {
     outline: 0;
 }
 

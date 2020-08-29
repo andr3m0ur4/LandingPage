@@ -29,7 +29,7 @@
             <div class="form">
                 <h2>Preencha o formulário e inicie a jornada de construção do seu site</h2>
 
-                <form action="">
+                <form method="post" action="./form.php">
                     <div class="input-container">
                         <label for="nome">Nome*</label>
                         <input type="text" id="nome" name="nome" required>
@@ -42,7 +42,7 @@
 
                     <div class="input-container">
                         <label for="telefone">Telefone*</label>
-                        <input type="text" id="telefone" name="telefone" required>
+                        <input type="tel" id="telefone" name="telefone" required>
                     </div>
 
                     <p class="warning">*Campos obrigatórios</p>
@@ -117,6 +117,10 @@
         <p>Todos os direitos reservados</p>
         <p>&copy;2020 André Moura Coder</p>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/jquery.form.min.js"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 </html>
