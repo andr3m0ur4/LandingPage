@@ -242,7 +242,7 @@ html, body {
         float: left;
     }
 
-    .input-container input[type=text], .input-container input[type=email] {
+    .input-container input[type=text], .input-container input[type=email], .input-container input[type=tel] {
         width: 100%;
     }
 
